@@ -1,6 +1,6 @@
-# Unit 4 Git playground — Lesson 2
+# Unit 4 Git playground - Lesson 2
 
-A tiny command-line notes tool, used as the practice repo for Unit 4, Lesson 2 (committing well). The app is a safe sandbox; the task is to make one small change and have Claude commit it with a clear message.
+A tiny command-line notes tool, used as the practice repo for Unit 4, Lesson 2 (committing well). The app is a safe sandbox, the task is to make one small change and have Claude commit it with a clear message.
 
 ### The app
 - `node notes.js add <text>` — add a note
@@ -21,4 +21,4 @@ Goal: make one focused change, then have Claude commit it with a message a revie
 2. Before committing, jot down — in `notes.md` or a scratch note — the quick commit message you'd dash off yourself in five seconds.
 3. Ask Claude: *"Stage my changes and commit them on a new branch with a good message."*
 4. Open that commit on GitHub and read Claude's message. Does it explain the change — the *why*, not just the *what* — better than your five-second version?
-5. Submit the link to the commit.
+5. Open the PR and submit.
