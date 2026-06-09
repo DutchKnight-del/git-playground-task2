@@ -18,7 +18,7 @@ Layout: `notes.js` is the entry point, `lib/store.js` loads, saves, and searches
 **Heads-up: the tests start red on purpose.** The repo ships with one bug, your job is to fix it, then let Claude commit the fix with a clear message.
 
 1. **Run the tests:** `npm test`. Two of the `search` tests fail — that's expected, not a broken repo.
-2. **Find the bug.** The `search` command should list every note that *contains* your term, but right now it only matches a note whose text is *exactly* the term.
+2. **Find the bug.** The `search` command should list every note that *contains* your term, but right now it only matches a note whose text is *exactly* the term. The fix is one line, in the `matches` function in `lib/store.js`.
 3. **Fix that line, then run `npm test` again.** All three tests should now pass. A good commit doesn't leave the build broken.
 4. **Write your own message first.** In `notes.md` (or a scratch note), jot the quick commit message you'd dash off yourself. You'll compare it to Claude's.
 5. **Let Claude commit it.** Ask: *'Run the tests to confirm they pass, then stage my changes and commit them on a new branch with a corresponding message.'*
